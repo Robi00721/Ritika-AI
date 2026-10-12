@@ -1,0 +1,7 @@
+{
+  "name": "Ritika AI - Android Chat Assistant",
+  "description": "Mobile-first Android-style AI chat companion for Robi with black and purple accents, local Termux HTTP backend integration layer, and chat history.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

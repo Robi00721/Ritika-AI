@@ -1,0 +1,21 @@
+{
+  "id": "/",
+  "name": "Ritika AI - Android Companion",
+  "short_name": "Ritika AI",
+  "version": "1.0.0",
+  "description": "Mobile-first AI companion app for Robi with black and purple accents, voice output, and local Termux HTTP integration.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#07050d",
+  "theme_color": "#07050d",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

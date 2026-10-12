@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Ritika AI</string>
+    <string name="title_activity_main">Ritika AI</string>
+    <string name="package_name">com.robi.ritikaai</string>
+    <string name="custom_url_scheme">com.robi.ritikaai</string>
+</resources>
