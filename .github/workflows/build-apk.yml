@@ -24,7 +24,9 @@ jobs:
           java-version: '17'
 
       - name: Configure Android SDK
-        run: echo "Android SDK: $ANDROID_HOME" && test -d "$ANDROID_HOME"
+        run: |
+          echo "Android SDK path is configured"
+          test -d "$ANDROID_HOME"
 
       - name: Install dependencies
         run: npm install --legacy-peer-deps
