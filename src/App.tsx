@@ -27,7 +27,6 @@ import { memoryService, INITIAL_MESSAGES } from './services/memoryService';
 import { termuxClient } from './services/termuxClient';
 import { voiceService } from './services/voiceService';
 import { apiKeysService } from './services/apiKeysService';
-import { generateRitikaReply } from './services/mockRitikaEngine';
 
 export default function App() {
   // State
@@ -166,8 +165,7 @@ Strict Personality Guidelines:
         const result = await termuxClient.sendMessage(text, newHistory, termuxConfig);
         replyText = result.reply;
       } else {
-        const mockResult = generateRitikaReply(text, newHistory.length);
-        replyText = mockResult.text;
+        throw new Error('Koi AI provider select nahi hai. Settings mein Gemini/OpenRouter ya Termux connect karo.');
       }
 
       const ritikaMessage: ChatMessage = {
